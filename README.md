@@ -8,10 +8,15 @@ Since the default Ubuntu repository's MeCab uses **EUC-JP** for encoding, charse
 - then this calls `mecab` and parses the content, and separates it by word. (`-O wakati`)
 - Finally, `iconv` again to convert the output in EUC-JP back into utf-8.
 
-# Requires:
-- OS:
-  - Pop! OS 22.04 LTS ([see os-release](https://github.com/Ryohskay/markov-playground/blob/main/info/os-release))
+# Env:
+- OS: Pop! OS 22.04 LTS ([see os-release](https://github.com/Ryohskay/markov-playground/blob/main/info/os-release))
+- Python: ^3.10.6
+- MeCab: ^0.996
+- iconv: ^2.35
+- markovify: ^0.9.4
 
+
+# Requires:
 - from /bin/bash
   - [MeCab](https://taku910.github.io/mecab/) available as `mecab`
   - MeCab dictionary
