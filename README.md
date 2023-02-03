@@ -8,6 +8,7 @@ Since the default Ubuntu repository's MeCab uses **EUC-JP** for encoding, charse
 # Requires:
 - from /bin/bash
   - MeCab available as `mecab`
+  - MeCab dictionary
   - `iconv`
 - Python (at least on python 3.10):
   - markovify

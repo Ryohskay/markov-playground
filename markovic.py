@@ -2,10 +2,9 @@ from sys import argv
 import markovify
 
 def main():
-    fName = argv[1]
-    with open(fName, "r") as file:
-        text = file.read()
-        # this file must be parsed by mecab and accordingly separated 
+    # Use run.sh to preprocess the input Japanese text
+    file = 
+    text = file.read()
 
     # default state_size is 2
     model = markovify.NewlineText(text, state_size=2)
