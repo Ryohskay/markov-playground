@@ -24,3 +24,4 @@ Since the default Ubuntu repository's MeCab uses **EUC-JP** for encoding, charse
 
 # Resources
 - [[Python] MeCab とマルコフ連鎖ライブラリ markovify を使い、文章を学習して自動生成する方法](https://qiita.com/shge/items/fbfce6b54d2e0cc1b382)
+- [mecab-python3 GitHub](https://github.com/SamuraiT/mecab-python3)
