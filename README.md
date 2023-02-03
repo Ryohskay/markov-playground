@@ -2,9 +2,9 @@
 This is my repo to play around with python's markovify and markov chain stuff.
 
 # How to use
-- 1. write your text / corpus into `testin.txt`
-- 2. do `bash run.sh`
-- 3. `python3 ./markovic.py`
+1. write your text / corpus into `testin.txt`
+2. do `bash run.sh`
+3. `python3 ./markovic.py`
 
 # How this works
 Since the default Ubuntu repository's MeCab uses **EUC-JP** for encoding, charset conversion is needed:
