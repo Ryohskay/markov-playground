@@ -10,6 +10,7 @@ Since the default Ubuntu repository's MeCab uses **EUC-JP** for encoding, charse
 
 # Env:
 - OS: Pop! OS 22.04 LTS ([see os-release](https://github.com/Ryohskay/markov-playground/blob/main/info/os-release))
+- bash: ^5.1.16
 - Python: ^3.10.6
 - MeCab: ^0.996
 - iconv: ^2.35
